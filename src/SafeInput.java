@@ -197,7 +197,7 @@ public class SafeInput
             System.out.print(" ");
         }
         System.out.print(msg);
-        for (int i = 0; i <((60/2) - 3) - msgLength / 2; i++)
+        for (int i = 0; i <((60/2) - 2) - msgLength / 2; i++)
         {
             System.out.print(" ");
         }
@@ -209,6 +209,8 @@ public class SafeInput
         {
             System.out.print("*");
         }
+
+        System.out.println();
 
         return "\n";
     }
